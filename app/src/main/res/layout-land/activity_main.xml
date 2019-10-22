@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@drawable/android"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/bienvenido"
+        style="@style/Base.TextAppearance.AppCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:padding="?android:attr/autofillDatasetPickerMaxWidth"
+        android:paddingLeft=""
+        android:paddingRight=""
+        android:text="@string/bienvenida"
+        android:textAppearance="@android:style/TextAppearance.WindowTitle"
+        android:textColor="@android:color/background_light"
+        android:textSize="?android:attr/windowTitleSize"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="78dp"
+        android:layout_height="42dp"
+        android:background="@android:drawable/list_selector_background"
+        android:selectAllOnFocus="?android:attr/windowOverscan"
+        android:singleLine="?android:attr/windowOverscan"
+        android:text="@string/entrar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/black"
+        android:textColorHint="@android:color/background_light"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+</android.support.constraint.ConstraintLayout>
